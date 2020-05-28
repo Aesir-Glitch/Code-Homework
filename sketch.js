@@ -6,6 +6,7 @@ function setup() {
   createCanvas(1600,400);
   bullet = createSprite(50, 200, 10, 50);
   bullet.velocityX = speed;
+  bullet.shapeColor("80,80,80");  
   wall = createSprite(1200,200,thickness,height/2);
   wall.shapeColor(80,80,80);
 
